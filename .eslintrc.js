@@ -31,6 +31,11 @@ module.exports = {
         // disable rules from base configurations
         "for-direction": "off",
     },
+    settings: {
+        react: {
+            version: "detect",
+        },
+    },
     overrides: [
         {
             "files": [

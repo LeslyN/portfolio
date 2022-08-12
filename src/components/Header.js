@@ -8,7 +8,7 @@ const Header = () => {
     return(
         <div className="shadow-sm w-full fixed top-0 left-0">
             <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-                <span className="navbar-logo">
+                <span>
                     <img src={personalLogo} className="App-logo" alt="logo"/>
                 </span>
                 <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden">

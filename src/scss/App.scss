@@ -1,6 +1,11 @@
-.App {
-background-color: #dadada;
+* {
+  @apply box-border m-0 p-0;
 }
+
+
+//.App {
+//background-color: #dadada;
+//}
 
 nav {
   @apply p-4;
@@ -32,6 +37,7 @@ body.dark{
   background-color: #393A3E;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -53,7 +59,7 @@ body.dark{
 }
 
 .switch {
-  @apply flex justify-center items-center;
+  @apply flex items-center justify-center;
 }
 
 input#checkbox {
@@ -100,4 +106,27 @@ input#checkbox:checked + label[for='checkbox'] {
   width: 23px;
   height: 23px;
   transition: transform 0.2s linear;
+}
+
+//.menu-icon {
+//  @apply flex justify-end;
+//}
+//
+//.list-item {
+//  @apply absolute;
+//}
+//
+//.list-item, .menu-icon {
+//  @apply right-4;
+//}
+
+.NavbarItems {
+  background-color: #dadada;
+  @apply flex items-center h-full;
+}
+
+.nav-menu {
+  @apply grid gap-2.5 list-none text-center;
+  grid-template-columns: repeat(5, auto);
+  width: 40vw;
 }
